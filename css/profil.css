@@ -1,0 +1,47 @@
+body {
+  background: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+
+.profilAll {
+  background: #f2f2f2;
+}
+.profil-table th,
+.profil-table td {
+  padding: 0rem;
+  font-size: 0.75rem;
+}
+
+.pay {
+  margin-left: 10px;
+  margin-bottom: 2px;margin-top: 2px;
+}
+
+@media (min-width: 576px) {
+  .profil-table th,
+  .profil-table td {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .profil-table th,
+  .profil-table td {
+    padding: 0.875rem;
+  }
+}
+
+@media (min-width: 996px) {
+  .profil-table th,
+  .profil-table td {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profil-table th,
+  .profil-table td {
+    padding: 1.8rem;
+  }
+}
